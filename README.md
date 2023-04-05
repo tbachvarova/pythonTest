@@ -7,3 +7,4 @@ I've learn:
   - ==, !=, <, >, <=, >= (Comparison Operators)
 - Conditionals (if / else) and Boolean Data Type
   - type() - print data type of var
+  - nested functions
