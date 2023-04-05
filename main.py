@@ -2,11 +2,13 @@ calculation_unit = 24
 unit_name = "hours"
 
 def daysToUnits(numOfDays):
-    print(f"{numOfDays} days are {numOfDays * calculation_unit} {unit_name}")
-
+    if(numOfDays > 0):
+        print(f"{numOfDays} days are {numOfDays * calculation_unit} {unit_name}")
+    else:
+        print("Number must be Grater than 0")
 
 userInput = input("Add some number for days: ")
-userInputNum = int(userInput)
 
-print(f"User added: {userInputNum} days")
-daysToUnits(userInputNum)
+daysToUnits(int(userInput))
+
+# print(type(1))
