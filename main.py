@@ -1,3 +1,6 @@
+# https://www.youtube.com/watch?v=t8pPdKYpowI
+# time:
+
 calculation_unit = 24
 unit_name = "hours"
 
@@ -7,13 +10,9 @@ def daysToUnits(numOfDays):
   #  print(type(conditionCheck))
 
 
-
-
-
-
 def validationAndExecute():
 
-    if userInput.isdigit():
+   try:
         userInputNum = int(userInput)
 
         if userInputNum > 0:
@@ -27,7 +26,7 @@ def validationAndExecute():
             print("Number must be Grater than 0")
 
 
-    else:
+   except ValueError:
         print("Try again with number!")
 
 

@@ -8,3 +8,4 @@ I've learn:
 - Conditionals (if / else) and Boolean Data Type
   - type() - print data type of var
   - nested functions
+- Exeptions (try, except)
